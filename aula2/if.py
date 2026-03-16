@@ -1,12 +1,11 @@
 # Condição IF
 
-def maior():
-  idade = int(input('Digite sua idade: '))
+# Entrada
+nome = input('Digite seu nome: ')
+idade = int(input('Digite sua idade: '))
 
-  if (idade < 18):
-    print('Menor de idade')
-    return
-  
-  print('Maior de idade')
+# Processamento
+if (idade < 18):
+  autorizacao = input('Os pais autorizaram? [SIM/NÃO]')
 
-maior()
+print(f'Realizando o Embarque de {nome}')
